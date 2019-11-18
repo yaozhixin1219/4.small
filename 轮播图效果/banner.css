@@ -1,0 +1,95 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}   
+
+.banner {
+    position: relative;
+    margin-top: 50px;
+    width: 600px;
+    height: 500px;
+    border: 1px solid orange;
+    overflow: hidden;
+}
+
+#left {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    float: left;
+    width: 40px;
+    height: 58px;
+    font-size: 30px;
+    padding-top: 15px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #666666;
+    cursor:pointer;
+}
+
+#right {
+    position: absolute;
+    top: 200px;
+    right: 0;
+    float: right;
+    width: 40px;
+    height: 58px;
+    font-size: 30px;
+    padding-top: 15px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #666666;
+    cursor:pointer;
+}
+
+#circle {
+    width: 200px;
+    height: 15px;
+    position: relative;
+    left: 30px;
+    bottom: 35px;
+    /* background-color: yellow; */
+}
+
+#circle li {
+    position: relative;
+    top: 500px;
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    border: 2px solid #777777;
+    background-color: #999999;
+    border-radius: 8px;
+    cursor:pointer;
+}
+
+#circle ol .active {
+    border: 3px solid #999999;
+    background: #fff;
+}
+
+#img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index:-1;
+}
+
+#img #imgul img {
+    width: 600px;
+    height: 500px;
+    display: block;
+    float: left;
+}

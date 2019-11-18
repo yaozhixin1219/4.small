@@ -1,0 +1,47 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+.div {
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+#iditem {
+    width: 100px;
+    height: 480px;
+    float: left;
+}
+
+.item {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: skyblue;
+}
+
+#idbox {
+    float: left;
+}
+
+.box {
+    float: left;
+    width: 400px;
+    height: 490px;
+    line-height: 90px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: pink;
+    display: none;
+}

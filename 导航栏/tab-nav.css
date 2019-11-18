@@ -1,0 +1,50 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+.tab {
+    width: 600px;
+    height: 400px;
+    margin-top: 50px;
+}
+
+#tab-nav {
+    width: 602px;
+}
+
+.tab-nav-list {
+    float: left;
+    width: 98px;
+    height: 50px;
+    line-height: 50px;
+    border-right: 2px solid orange;
+    text-align: center;
+    background-color: pink;
+}
+
+#six {
+    border-right: 0;
+}
+
+#tab-content {
+    width: 600px;
+    height: 250px;
+}
+
+.tab-content-list {
+    width: 597px;
+    height: 150px;
+    padding-top: 180px;
+    background-color: skyblue;
+    text-align: center;
+    display: none;
+}
